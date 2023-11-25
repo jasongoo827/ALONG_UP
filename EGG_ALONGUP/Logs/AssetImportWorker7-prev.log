@@ -1,0 +1,341 @@
+Unity Editor version:    2021.3.19f1 (c9714fde33b6)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.1.1 (Build 23B81)
+Darwin version:          23.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+/Users/minjoong/Desktop/ALONG_UP/EGG_ALONGUP
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+49977
+Successfully changed project path to: /Users/minjoong/Desktop/ALONG_UP/EGG_ALONGUP
+/Users/minjoong/Desktop/ALONG_UP/EGG_ALONGUP
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8118345408] Host "[IP] 172.30.1.85 [Port] 0 [Flags] 2 [Guid] 939855372 [EditorId] 939855372 [Version] 1048832 [Id] OSXEditor(0,minjoongs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8118345408] Host "[IP] 172.30.1.85 [Port] 0 [Flags] 2 [Guid] 939855372 [EditorId] 939855372 [Version] 1048832 [Id] OSXEditor(0,minjoongs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 109.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.19f1 (c9714fde33b6)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/minjoong/Desktop/ALONG_UP/EGG_ALONGUP/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56867
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.19f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.19f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000783 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 117.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.489 seconds
+Domain Reload Profiling:
+	ReloadAssembly (490ms)
+		BeginReloadAssembly (34ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (377ms)
+			LoadAssemblies (34ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (80ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (90ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001947 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/minjoong/Desktop/ALONG_UP/EGG_ALONGUP/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/minjoong/Desktop/ALONG_UP/EGG_ALONGUP/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.904 seconds
+Domain Reload Profiling:
+	ReloadAssembly (905ms)
+		BeginReloadAssembly (70ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (746ms)
+			LoadAssemblies (38ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (405ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (325ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3780 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (114.0 KB). Loaded Objects now: 4224.
+Memory consumption went from 136.8 MB to 136.7 MB.
+Total: 3.244750 ms (FindLiveObjects: 0.115166 ms CreateObjectMapping: 0.055209 ms MarkObjects: 2.978875 ms  DeleteObjects: 0.094583 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20171.169715 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Sign_Arrow_01.fbx
+  artifactKey: Guid(09e6867afb767c24f9d68081e59eb4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Sign_Arrow_01.fbx using Guid(09e6867afb767c24f9d68081e59eb4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94981874f4d402291c27dc4d56b928ed') in 0.122557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.224110 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonCity/Models/SM_Prop_ShopInterior_Desk_01.fbx
+  artifactKey: Guid(7c99b4e43e33d9a49b4ba2cf0ce776e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonCity/Models/SM_Prop_ShopInterior_Desk_01.fbx using Guid(7c99b4e43e33d9a49b4ba2cf0ce776e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2c21a37a33d565ac3611c6d2a4d894') in 0.008717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035031 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonAdventure/Models/SM_Prop_Sack_02.fbx
+  artifactKey: Guid(680c8bcb20e18194b9f4de53e67350e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonAdventure/Models/SM_Prop_Sack_02.fbx using Guid(680c8bcb20e18194b9f4de53e67350e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa909e2040fbbd4017c44d0e9af3b1ce') in 0.011108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.321407 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Roof_Aircon_03.fbx
+  artifactKey: Guid(ceb1d031ed4bfa74294360bded2096b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Roof_Aircon_03.fbx using Guid(ceb1d031ed4bfa74294360bded2096b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23443e29cd5e6ac06e2c00f3feac520') in 0.009051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Rifle_01.fbx
+  artifactKey: Guid(77170bfa0b77a574d933339a43fa9878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Rifle_01.fbx using Guid(77170bfa0b77a574d933339a43fa9878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f756ad5aec6b74a296b92a45fa29a40b') in 0.029125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006394 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Power_Cables_02.fbx
+  artifactKey: Guid(d4acc74b0392b0b4693d11ba9b047397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Power_Cables_02.fbx using Guid(d4acc74b0392b0b4693d11ba9b047397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd172e134280274056901cd64824aba') in 0.007322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonCity/Models/SM_Prop_PowerBox_01.fbx
+  artifactKey: Guid(ef227fb11c3c27d4bbc32bbc1f58d552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonCity/Models/SM_Prop_PowerBox_01.fbx using Guid(ef227fb11c3c27d4bbc32bbc1f58d552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041b5fb26b56b52f071995de59dcfa95') in 0.009284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.340287 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonAdventure/Models/SM_Prop_Pot_01.fbx
+  artifactKey: Guid(4f751ecd801ed1c4ca150b40c19736bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonAdventure/Models/SM_Prop_Pot_01.fbx using Guid(4f751ecd801ed1c4ca150b40c19736bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f91b909e3b079638f28330f5217290') in 0.010536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040965 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Poster_01.fbx
+  artifactKey: Guid(c16aa1108cc545242b35de129b42d962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Poster_01.fbx using Guid(c16aa1108cc545242b35de129b42d962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b511711ac51cb8bd6a872906f8b88ca') in 0.008475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Planter_01.fbx
+  artifactKey: Guid(cf0b460e21946b344b5e5f3b4c27c0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Planter_01.fbx using Guid(cf0b460e21946b344b5e5f3b4c27c0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcee5806dd890823b8108959ac62c7fd') in 0.008946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonKnights/Models/SM_Prop_Plinth_01_Snow.fbx
+  artifactKey: Guid(1e33a19d4f3eef748aa43ba0ebf61ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonKnights/Models/SM_Prop_Plinth_01_Snow.fbx using Guid(1e33a19d4f3eef748aa43ba0ebf61ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b3d37edeb8e634dec22d642fae0c51') in 0.008158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.904520 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Pipe_Part_Straight_01.fbx
+  artifactKey: Guid(1a0e9ff6b887f2a48a1b1ed08dd3ade1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Pipe_Part_Straight_01.fbx using Guid(1a0e9ff6b887f2a48a1b1ed08dd3ade1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52edf7764a65ad9fceab93d75f1468c9') in 0.011433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Pipe_Part_T_01.fbx
+  artifactKey: Guid(c30c0841723e49f4ebbac95faf3037df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Pipe_Part_T_01.fbx using Guid(c30c0841723e49f4ebbac95faf3037df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f72b0563c85affe9b1840277013a54') in 0.009381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Pipe_04.fbx
+  artifactKey: Guid(d28c1112dbc0180449970efc5b0b0279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Pipe_04.fbx using Guid(d28c1112dbc0180449970efc5b0b0279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4a45656990463b9bbbc0c9cee66894') in 0.008274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonCity/Models/SM_Prop_PicnicTable_01.fbx
+  artifactKey: Guid(c454f6aff46058043ab43e59d0b536ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonCity/Models/SM_Prop_PicnicTable_01.fbx using Guid(c454f6aff46058043ab43e59d0b536ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac79cf24251dddb6555fcb4c38c5d5d') in 0.008544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.652424 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonCity/Models/SM_Prop_ParkBench_01.fbx
+  artifactKey: Guid(6080e80bbc45a324b832aec3f4cef3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonCity/Models/SM_Prop_ParkBench_01.fbx using Guid(6080e80bbc45a324b832aec3f4cef3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e49a2745fc17888925135b39d2ac2e') in 0.012732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Pallet_01.fbx
+  artifactKey: Guid(e23d4b62aad159148848bd34bcb3a354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Pallet_01.fbx using Guid(e23d4b62aad159148848bd34bcb3a354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8216434d7387c498efe995cb413813') in 0.009171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Minigolf_Club_01.fbx
+  artifactKey: Guid(59e4b61d7bfdd054fac81c8151e803f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Minigolf_Club_01.fbx using Guid(59e4b61d7bfdd054fac81c8151e803f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9533df757b7f09c8ef42c55e82a0b71d') in 0.007264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.734626 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_MetalPlate_02.fbx
+  artifactKey: Guid(7847a5e23874ab14d9555dba5093f63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_MetalPlate_02.fbx using Guid(7847a5e23874ab14d9555dba5093f63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffedfa9693fa36a9a956ffd899a84201') in 0.008517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028855 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonAdventure/Models/SM_Prop_Meat_03.fbx
+  artifactKey: Guid(2a34834afaeb91b4ab800550c7cb3939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonAdventure/Models/SM_Prop_Meat_03.fbx using Guid(2a34834afaeb91b4ab800550c7cb3939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320249e8617d9b96c14df9281e065db1') in 0.010320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonAdventure/Models/SM_Prop_Loghalf_02.fbx
+  artifactKey: Guid(861aaae8ed26a584a9cbe79c104b24c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonAdventure/Models/SM_Prop_Loghalf_02.fbx using Guid(861aaae8ed26a584a9cbe79c104b24c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96c365eaac69a6c4500f50c3b8a8dd6') in 0.008303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.341463 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/Characters.fbx
+  artifactKey: Guid(b5f71c859f9f9bf41badda8a4650082c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/Characters.fbx using Guid(b5f71c859f9f9bf41badda8a4650082c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909c6ebe169f0c4786a5ad796bbb3347') in 0.163830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonCity/Models/FixedScaleCharacters/Characters.fbx
+  artifactKey: Guid(91028badc63f59f43a9c5bda64fbd608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonCity/Models/FixedScaleCharacters/Characters.fbx using Guid(91028badc63f59f43a9c5bda64fbd608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf3d4f479408bb31c30cbec6441d91e') in 0.107405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.644059 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonKnights/Models/SM_Prop_CampFire_01.fbx
+  artifactKey: Guid(d817a0a5953491b43b70703469572251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonKnights/Models/SM_Prop_CampFire_01.fbx using Guid(d817a0a5953491b43b70703469572251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7081b6ae80f8118c0b1cffcf439a294b') in 0.010966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.550871 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonKnights/Models/SM_Prop_CartHay_01.fbx
+  artifactKey: Guid(e128593380150d9428df407c09bac59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonKnights/Models/SM_Prop_CartHay_01.fbx using Guid(e128593380150d9428df407c09bac59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab1e927ae549ce01b8f31677812f617') in 0.010674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029860 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonAdventure/Models/SM_Prop_Cheese_02.fbx
+  artifactKey: Guid(9bcdcc2d878b91c49a9de0111be7b869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonAdventure/Models/SM_Prop_Cheese_02.fbx using Guid(9bcdcc2d878b91c49a9de0111be7b869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3915ae315b4f982312d32b54363dc7f1') in 0.009214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.446720 seconds.
+  path: Assets/Assets/SyntyStudios/PolygonAdventure/Models/SM_Prop_Crate_02.fbx
+  artifactKey: Guid(571ca82227e33ee49bfab56388a9ff84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SyntyStudios/PolygonAdventure/Models/SM_Prop_Crate_02.fbx using Guid(571ca82227e33ee49bfab56388a9ff84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328a5e4e558019ca8a1aff54ebd46b19') in 0.010138 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
