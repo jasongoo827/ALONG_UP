@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class tutorialEnd : MonoBehaviour
 {
@@ -24,7 +25,7 @@ public class tutorialEnd : MonoBehaviour
             canvasGroup.alpha = Mathf.Lerp(0, 1, t / fadeTime);
             yield return null;
         }
-
         canvasGroup.alpha = 1; // 완전히 불투명하게 설정
+        SceneManager.LoadScene("StartScene");
     }
 }

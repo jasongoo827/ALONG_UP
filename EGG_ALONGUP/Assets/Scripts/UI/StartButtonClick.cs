@@ -4,7 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class StartButtonClick : MonoBehaviour
 {
-    public void SceneChange()
+    public void SceneChangetoMap()
+    {
+        SceneManager.LoadScene("Map");
+    }
+    public void SceneChangetoTutorial()
     {
         SceneManager.LoadScene("Map_Tutorial");
     }
