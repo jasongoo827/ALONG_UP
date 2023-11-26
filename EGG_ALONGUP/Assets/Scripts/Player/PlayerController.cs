@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviourPun
     public float jumpForce = 7.0f;
 
     private Rigidbody rb;
+    private float targetAngle;
     private bool isGround;
 
     // Start is called before the first frame update
@@ -38,6 +39,13 @@ public class PlayerController : MonoBehaviourPun
 
         Vector3 movement = new Vector3(horizonalInput, 0, verticalInput) * moveSpeed;
         rb.velocity = new Vector3(movement.x, rb.velocity.y, movement.z);
+
+        if (movement.magnitude > 0.1f)
+        {
+            // rotation
+            targetAngle = Mathf.Atan2(movement.normalized.x, movement.normalized.z) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(0f, targetAngle, 0f);
+        }
     }
 
     void Jump()
