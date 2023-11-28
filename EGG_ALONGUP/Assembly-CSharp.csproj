@@ -59,30 +59,20 @@
     <Compile Include="Assets\Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
     <Compile Include="Assets\Scripts\Map\JumpTrap.cs" />
     <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\AddRandomVelocity.cs" />
-    <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderProperties.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\FPSDisplay.cs" />
     <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\ObjectDragger.cs" />
     <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\Wrappable.cs" />
     <Compile Include="Assets\Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
-    <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderGizmos.cs" />
-    <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderPreferences.cs" />
     <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\ObiParticleCounter.cs" />
-    <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderAutoSkinned.cs" />
-    <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderDraw.cs" />
-    <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderVHACD.cs" />
     <Compile Include="Assets\Scripts\Map\PendulumLeft.cs" />
     <Compile Include="Assets\Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
     <Compile Include="Assets\Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
     <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\ColliderHighlighter.cs" />
-    <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderAutoSkinnedBone.cs" />
     <Compile Include="Assets\Assets\HYPEPOLY - Battle Royale Show\Scripts\WNDParticlesDestroyer.cs" />
     <Compile Include="Assets\Scripts\Map\Test\Bounce.cs" />
     <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\CollisionEventHandler.cs" />
     <Compile Include="Assets\Scripts\Map\Test\CameraMove.cs" />
-    <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderTips.cs" />
-    <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderSaving.cs" />
-    <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderEditor.cs" />
     <Compile Include="Assets\Scripts\UI\tutorialEnd.cs" />
     <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\GrapplingHook.cs" />
     <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\ActorCOMTransform.cs" />
@@ -90,10 +80,7 @@
     <Compile Include="Assets\Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
     <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\ExtendableGrapplingHook.cs" />
     <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\DebugParticleFrames.cs" />
-    <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderUIHelpers.cs" />
-    <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderVertex.cs" />
     <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\CharacterController\SampleCharacterController.cs" />
-    <Compile Include="Assets\EasyColliderEditor\DOTS\Scripts\EasyColliderDOTS.cs" />
     <Compile Include="Assets\Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
     <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\CharacterController\ObiCharacter.cs" />
     <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\WrapRopePlayerController.cs" />
@@ -101,10 +88,8 @@
     <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\RopeNet.cs" />
     <Compile Include="Assets\Assets\HYPEPOLY - Battle Royale Show\Scripts\WNDMoover.cs" />
     <Compile Include="Assets\Scripts\Map\RotateBlock.cs" />
-    <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderData.cs" />
     <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\ObiActorTeleport.cs" />
     <Compile Include="Assets\Assets\HYPEPOLY - Battle Royale Show\Scripts\WNDParticlesSpawner.cs" />
-    <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderEnums.cs" />
     <Compile Include="Assets\Scripts\Map\Door.cs" />
     <Compile Include="Assets\Scripts\UI\StartButtonClick.cs" />
     <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\ObjectLimit.cs" />
@@ -114,7 +99,6 @@
     <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\CraneController.cs" />
     <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\MoveAndRotate.cs" />
     <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\RuntimeRopeGenerator.cs" />
-    <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderPreviewer.cs" />
     <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\ColorFromPhase.cs" />
     <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\ColorFromVelocity.cs" />
     <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\WrapRopeGameController.cs" />
@@ -123,13 +107,11 @@
     <Compile Include="Assets\Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
     <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\RuntimeRopeGeneratorUse.cs" />
     <Compile Include="Assets\Scripts\Map\Test\CharacterMove.cs" />
-    <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderRotateDuplicate.cs" />
     <Compile Include="Assets\Scripts\Map\Button.cs" />
     <Compile Include="Assets\Scripts\UI\howToJumpTrigger.cs" />
     <Compile Include="Assets\Scripts\Player\GrappleRopeController.cs" />
     <Compile Include="Assets\Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
     <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\ActorSpawner.cs" />
-    <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderQuickHull.cs" />
     <Compile Include="Assets\Scripts\Map\Test\MouseMove.cs" />
     <Compile Include="Assets\Assets\HYPEPOLY - Battle Royale Show\Demo\Scripts\WNDDisabler.cs" />
     <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\RopeSweepCut.cs" />
@@ -138,11 +120,9 @@
     <Compile Include="Assets\Scripts\Map\FallingBlock.cs" />
     <Compile Include="Assets\Scripts\UI\removeHowToMove.cs" />
     <Compile Include="Assets\Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
-    <Compile Include="Assets\EasyColliderEditor\Scripts\VHACDScriptableSettings.cs" />
     <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\Blinker.cs" />
     <Compile Include="Assets\Scripts\UI\PauseButton.cs" />
     <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\HosePump.cs" />
-    <Compile Include="Assets\EasyColliderEditor\Scripts\VHACDParameters.cs" />
     <Compile Include="Assets\Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
     <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\RopeTenser.cs" />
     <Compile Include="Assets\Scripts\Map\SpringJumpTrap.cs" />
@@ -152,16 +132,12 @@
     <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\CharacterControl2D.cs" />
     <Compile Include="Assets\Assets\HYPEPOLY - Battle Royale Show\Scripts\WNDDispenser.cs" />
     <Compile Include="Assets\Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
-    <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderWindow.cs" />
     <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\CursorController.cs" />
     <Compile Include="Assets\Assets\HYPEPOLY - Battle Royale Show\Scripts\WNDRotator.cs" />
     <Compile Include="Assets\Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\Scripts\Map\Shooter.cs" />
-    <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderCreator.cs" />
-    <Compile Include="Assets\EasyColliderEditor\Scripts\Shader\EasyColliderCompute.cs" />
     <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\WorldSpaceGravity.cs" />
     <Compile Include="Assets\Scripts\Map\Fan.cs" />
-    <Compile Include="Assets\Scripts\CameraManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
@@ -853,9 +829,6 @@
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
@@ -871,11 +844,20 @@
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>

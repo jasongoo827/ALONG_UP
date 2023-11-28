@@ -192,8 +192,8 @@
     <Compile Include="Assets\Obi\Scripts\Common\Backends\Burst\Constraints\Pin\BurstPinConstraints.cs" />
     <Compile Include="Assets\Obi\Scripts\Common\Blueprints\Constraints\Groups\ObiSkinConstraintsData.cs" />
     <Compile Include="Assets\Obi\Scripts\Common\Utils\Attributes\MultiRange.cs" />
-    <Compile Include="Assets\Obi\Scripts\Common\Rendering\ParticleImpostorRendering.cs" />
     <Compile Include="Assets\Obi\Scripts\Common\Backends\Interface\JobHandlePool.cs" />
+    <Compile Include="Assets\Obi\Scripts\Common\Rendering\ParticleImpostorRendering.cs" />
     <Compile Include="Assets\Obi\Scripts\Common\Backends\Burst\DataStructures\BurstRigidbody.cs" />
     <Compile Include="Assets\Obi\Scripts\Common\DataStructures\NativeList\ObiNativeEdgeList.cs" />
     <Compile Include="Assets\Obi\Scripts\Common\DataStructures\NativeList\ObiNativeTriangleList.cs" />
