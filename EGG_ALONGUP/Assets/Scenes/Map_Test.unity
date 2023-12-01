@@ -647,7 +647,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstaclePrefab: {fileID: 373074130}
   spawnInterval: 2
-  obstacleSpeed: 10
+  obstacleSpeed: 5.1
 --- !u!23 &180102187
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8478,7 +8478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97718d8179b4fd149babe79b00f02959, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 10
+  jumpForce: 50
 --- !u!65 &1974771963
 BoxCollider:
   m_ObjectHideFlags: 0
