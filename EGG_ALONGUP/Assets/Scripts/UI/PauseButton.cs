@@ -31,8 +31,11 @@ public class PauseButton : MonoBehaviour
     }
     public void quit()
     {
+
         Time.timeScale = 1;
         SceneManager.LoadScene("StartScene");
+        audioMixer.SetFloat("BGM_1", 0);
+        AudioListener.volume = 1;
     }
 
     public void mute()
@@ -52,8 +55,14 @@ public class PauseButton : MonoBehaviour
     public void volume()
     {
         float sound = audioSlider.value;
-        if (sound == -40f) audioMixer.SetFloat("BGM_1", -80);
-        else audioMixer.SetFloat("BGM_1", sound);
+        if (sound == -40f)
+        {
+            audioMixer.SetFloat("BGM_1", -80);
+        }
+        else
+        {
+            audioMixer.SetFloat("BGM_1", sound);
+        }
 
     }
     private void Start()
