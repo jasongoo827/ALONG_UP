@@ -11,6 +11,7 @@ public class tutorialEnd : MonoBehaviour
     {
 
         Debug.Log("player collision");
+        fadeOutImage.SetActive(true);
         StartCoroutine(FadeInEffect());
 
     }
