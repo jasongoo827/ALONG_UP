@@ -11,8 +11,8 @@ public class PauseButton : MonoBehaviour
     public GameObject pauseMenu;
     public AudioMixer audioMixer;
     public Slider audioSlider;
+    public GameObject x;
     float vloume;
-    public Text muteButtonText;
 
     public void pause()
     {
@@ -37,9 +37,16 @@ public class PauseButton : MonoBehaviour
     public void mute()
     {
         AudioListener.volume = AudioListener.volume == 0 ? 1 : 0;
-        muteButtonText.text = AudioListener.volume == 0 ? "On" : "Off";
-
+        if (AudioListener.volume == 0)
+        {
+            x.SetActive(true);
+        }
+        else
+        {
+            x.SetActive(false);
+        }
     }
+
 
     public void volume()
     {
