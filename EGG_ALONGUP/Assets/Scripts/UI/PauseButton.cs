@@ -31,6 +31,7 @@ public class PauseButton : MonoBehaviour
     }
     public void quit()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("StartScene");
     }
 
