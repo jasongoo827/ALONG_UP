@@ -53,5 +53,12 @@ public class PauseButton : MonoBehaviour
         // Initialize vloume (volume) based on the initial slider value
         vloume = audioSlider.value;
     }
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            pause();
+        }
+    }
 
 }
