@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class howToJumpTrigger : MonoBehaviour
 {
-    public GameObject howToMove;
     public GameObject howToJump;
     public GameObject background;
 
