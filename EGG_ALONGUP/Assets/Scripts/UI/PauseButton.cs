@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
+using Photon.Pun;
 
 public class PauseButton : MonoBehaviour
 {
@@ -33,6 +34,7 @@ public class PauseButton : MonoBehaviour
     {
 
         Time.timeScale = 1;
+        PhotonNetwork.LeaveRoom(this);
         SceneManager.LoadScene("StartScene");
         audioMixer.SetFloat("BGM_1", 0);
         AudioListener.volume = 1;

@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class MultiPlayerBuildAndRun
 {
-    [MenuItem("Tools/Run Multiplayer/2 Players")]
+    [MenuItem("Tools/Run Multiplayer/1 Players")]
     static void PerformWin64Build()
     {
-        PerformWin64Build(2);
+        PerformWin64Build(1);
     }
 
    static void PerformWin64Build(int playerCount)
